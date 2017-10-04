@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll 搭建静态博客"
+title:  "windows开发环境配置指南"
 date:   2017-10-04 20:14:54
-categories: jekyll
+categories: tech
 excerpt: Windows开发环境搭建
 ---
 
