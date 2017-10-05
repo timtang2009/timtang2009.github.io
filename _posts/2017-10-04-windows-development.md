@@ -13,14 +13,13 @@ Windows用户配置开发环境指南
 ===========
 
 
-- [1. 安装MSYS2](#2-安装MSYS2)
-- [2. 安装cmder](#3-安装cmder)
-- [3. pacman](#4-pacman)
-- [4. 安装开发工具](#5-安装开发工具)
-- [5. 其他需要安装的工具](#6-其他需要安装的工具)
-- [6. pull代码](#7-pull代码)
-- [7. 安装并配置docker](#8-安装并配置docker)
-- [8. 配置本地mysql](#9-配置本地mysql)
+- [1. 安装MSYS2](#1-安装MSYS2)
+- [2. 安装cmder](#2-安装cmder)
+- [3. pacman](#3-pacman)
+- [4. 安装开发工具](#4-安装开发工具)
+- [5. 其他需要安装的工具](#5-其他需要安装的工具)
+- [6. 安装并配置docker](#6-安装并配置docker)
+- [7. 配置本地mysql](#7-配置本地mysql)
 
 ## 前言
 介绍一些本人在windows平台下开发所使用的工具，包括好用的命令行，类linux环境，数据库及docker工具等。注意，本文用到的所有工具都是免费且正版的。
@@ -105,24 +104,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 需要前端开发请安装：
 chrome, firefox, postman, fiddler, fiddler syntax editor
 
-## 6. pull代码并编译
-Pull代码，如要配置maven的settings.xml，可以：
-```
-cp ~/ cloud-pay2/settings.xml ~/.m2/ 并mvn编译
-```
-或每次编译时使用-s settings.xml参数
-
-编译代码：
-```
-mvn
-mvn install
-```
-本地起程序：
-```
-java -jar host/host-homesite/target/cloud-homesite-1.0.0.war
-```
-
-## 7. 安装并配置docker
+## 6. 安装并配置docker
 1）确认在第5步中dockerTool已正确安装(docker --version)
 
 2）运行建立虚拟机
@@ -157,7 +139,7 @@ docker build –t $(basename `pwd`) .
 
 8）执行完毕后执行docker images查看是否正确install
 
-## 8. 配置本地mysql
+## 7. 配置本地mysql
 
 打开DBVisualizer，建立localhost:3306,用户名为root，无密码的数据库connection
 
