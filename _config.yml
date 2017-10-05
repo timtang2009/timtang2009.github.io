@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            TimTang
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Conclusion</a> for <a href="http://jekyllrb.com" target="_blank">Development</a>, refreshed.'
+description:      'The <a href="http://www.163yun.com" target="_blank">Conclusion</a> for Development, refreshed.'
 url:              https://fongandrew.github.io/hydeout
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -34,4 +34,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/timtang2009
