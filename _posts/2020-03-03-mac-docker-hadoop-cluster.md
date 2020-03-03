@@ -34,10 +34,10 @@ Hadoop的master和slave分别运行在不同的Docker容器中，其中hadoop-ma
 ```
 docker pull kiwenlau/hadoop:1.0
 ```
-![](../_screenshots/docker镜像拉取.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/6c5b7ecb4dc5f91ef76e4ff416d178b8docker镜像拉取.jpg)
 
 pull完以后用docker images命令查看是否下载成功
-![](../_screenshots/查看下载结果.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/808fb5cb881dbbcc11a97b3afce8ba2c查看下载结果.jpg)
 
 
 下载GitHub仓库
@@ -63,7 +63,7 @@ cd hadoop-cluster-docker
 ```
 ./start-container.sh
 ```
-![](../_screenshots/运行container.jpg)
+![](/_screenshots/运行container.jpg)
 
 
 ## 5. 启动hadoop集群
@@ -71,21 +71,21 @@ cd hadoop-cluster-docker
 ```
 ./start-hadoop.sh
 ```
-![](../_screenshots/启动hadoop.jpg)
+![](/_screenshots/启动hadoop.jpg)
 
 此时已经启动了一个master, 2个slave节点
-![](../_screenshots/docker节点查看.jpg)
+![](/_screenshots/docker节点查看.jpg)
 
 再运行切词测试脚本
 ```
 ./run-wordcount.sh
 ```
-![](../_screenshots/切词结果.jpg)
+![](/_screenshots/切词结果.jpg)
 
 ## 6. 查看管理hadoop节点
 Hadoop网页管理地址:
 NameNode:  http://127.0.0.1:50070/
-![](../_screenshots/namenode.jpg)
+![](/_screenshots/namenode.jpg)
 ResourceManager：  http://127.0.0.1:8088/
-![](../_screenshots/manage.jpg)
+![](/_screenshots/manage.jpg)
 
