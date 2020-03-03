@@ -63,7 +63,7 @@ cd hadoop-cluster-docker
 ```
 ./start-container.sh
 ```
-![](/_screenshots/运行container.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/a3b992119bae3c2d72bd1fa89abc1d97运行container.jpg)
 
 
 ## 5. 启动hadoop集群
@@ -71,21 +71,21 @@ cd hadoop-cluster-docker
 ```
 ./start-hadoop.sh
 ```
-![](/_screenshots/启动hadoop.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/f844247638e5d836f6341e0e068a4faa启动hadoop.jpg)
 
 此时已经启动了一个master, 2个slave节点
-![](/_screenshots/docker节点查看.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/d41dc4963870b873926a4eb6b9ffb6b5docker节点查看.jpg)
 
 再运行切词测试脚本
 ```
 ./run-wordcount.sh
 ```
-![](/_screenshots/切词结果.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/6fd5ee5067eaba3fa04caf0d709f5ef0切词结果.jpg)
 
 ## 6. 查看管理hadoop节点
 Hadoop网页管理地址:
 NameNode:  http://127.0.0.1:50070/
-![](/_screenshots/namenode.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/590a2f796be86dca3b729eff287d0479namenode.jpg)
 ResourceManager：  http://127.0.0.1:8088/
-![](/_screenshots/manage.jpg)
+![](https://jewelry-recognize.oss-cn-shenzhen.aliyuncs.com/uploads/cbef39ab1da9aa5418c9cd0505f2d380manage.jpg)
 
